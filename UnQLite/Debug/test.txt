@@ -1,0 +1,144 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file UnQLite.dll
+
+File Type: DLL
+
+  Section contains the following exports for UnQLite.dll
+
+    00000000 characteristics
+    55726F29 time date stamp Sat Jun 06 12:55:21 2015
+        0.00 version
+           1 ordinal base
+         115 number of functions
+         115 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0003E3F2 unqlite_array_add_elem = @ILT+1005(_unqlite_array_add_elem)
+          2    1 0003E3C5 unqlite_array_add_strkey_elem = @ILT+960(_unqlite_array_add_strkey_elem)
+          3    2 0003E375 unqlite_array_count = @ILT+880(_unqlite_array_count)
+          4    3 0003E48D unqlite_array_fetch = @ILT+1160(_unqlite_array_fetch)
+          5    4 0003E280 unqlite_array_walk = @ILT+635(_unqlite_array_walk)
+          6    5 0003E104 unqlite_begin = @ILT+255(_unqlite_begin)
+          7    6 0003E0D7 unqlite_close = @ILT+210(_unqlite_close)
+          8    7 0003E091 unqlite_commit = @ILT+140(_unqlite_commit)
+          9    8 0003E0AF unqlite_compile = @ILT+170(_unqlite_compile)
+         10    9 0003E00F unqlite_compile_file = @ILT+10(_unqlite_compile_file)
+         11    A 0003E09B unqlite_config = @ILT+150(_unqlite_config)
+         12    B 0003E19A unqlite_context_alloc_chunk = @ILT+405(_unqlite_context_alloc_chunk)
+         13    C 0003E1A4 unqlite_context_free_chunk = @ILT+415(_unqlite_context_free_chunk)
+         14    D 0003E02D unqlite_context_new_array = @ILT+40(_unqlite_context_new_array)
+         15    E 0003E4D8 unqlite_context_new_scalar = @ILT+1235(_unqlite_context_new_scalar)
+         16    F 0003E0F5 unqlite_context_output = @ILT+240(_unqlite_context_output)
+         17   10 0003E00A unqlite_context_output_format = @ILT+5(_unqlite_context_output_format)
+         18   11 0003E1BD unqlite_context_peek_aux_data = @ILT+440(_unqlite_context_peek_aux_data)
+         19   12 0003E3BB unqlite_context_push_aux_data = @ILT+950(_unqlite_context_push_aux_data)
+         20   13 0003E406 unqlite_context_random_num = @ILT+1025(_unqlite_context_random_num)
+         21   14 0003E4E7 unqlite_context_random_string = @ILT+1250(_unqlite_context_random_string)
+         22   15 0003E35C unqlite_context_realloc_chunk = @ILT+855(_unqlite_context_realloc_chunk)
+         23   16 0003E037 unqlite_context_release_value = @ILT+50(_unqlite_context_release_value)
+         24   17 0003E1CC unqlite_context_result_buf_length = @ILT+455(_unqlite_context_result_buf_length)
+         25   18 0003E1C2 unqlite_context_throw_error = @ILT+445(_unqlite_context_throw_error)
+         26   19 0003E1EA unqlite_context_throw_error_format = @ILT+485(_unqlite_context_throw_error_format)
+         27   1A 0003E488 unqlite_context_user_data = @ILT+1155(_unqlite_context_user_data)
+         28   1B 0003E28F unqlite_create_constant = @ILT+650(_unqlite_create_constant)
+         29   1C 0003E1C7 unqlite_create_function = @ILT+450(_unqlite_create_function)
+         30   1D 0003E06E unqlite_delete_constant = @ILT+105(_unqlite_delete_constant)
+         31   1E 0003E05A unqlite_delete_function = @ILT+85(_unqlite_delete_function)
+         32   1F 0003E028 unqlite_function_name = @ILT+35(_unqlite_function_name)
+         33   20 0003E41A unqlite_kv_append = @ILT+1045(_unqlite_kv_append)
+         34   21 0003E26C unqlite_kv_append_fmt = @ILT+615(_unqlite_kv_append_fmt)
+         35   22 0003E343 unqlite_kv_config = @ILT+830(_unqlite_kv_config)
+         36   23 0003E082 unqlite_kv_cursor_data = @ILT+125(_unqlite_kv_cursor_data)
+         37   24 0003E195 unqlite_kv_cursor_data_callback = @ILT+400(_unqlite_kv_cursor_data_callback)
+         38   25 0003E087 unqlite_kv_cursor_delete_entry = @ILT+130(_unqlite_kv_cursor_delete_entry)
+         39   26 0003E370 unqlite_kv_cursor_first_entry = @ILT+875(_unqlite_kv_cursor_first_entry)
+         40   27 0003E0DC unqlite_kv_cursor_init = @ILT+215(_unqlite_kv_cursor_init)
+         41   28 0003E276 unqlite_kv_cursor_key = @ILT+625(_unqlite_kv_cursor_key)
+         42   29 0003E34D unqlite_kv_cursor_key_callback = @ILT+840(_unqlite_kv_cursor_key_callback)
+         43   2A 0003E1AE unqlite_kv_cursor_last_entry = @ILT+425(_unqlite_kv_cursor_last_entry)
+         44   2B 0003E316 unqlite_kv_cursor_next_entry = @ILT+785(_unqlite_kv_cursor_next_entry)
+         45   2C 0003E442 unqlite_kv_cursor_prev_entry = @ILT+1085(_unqlite_kv_cursor_prev_entry)
+         46   2D 0003E410 unqlite_kv_cursor_release = @ILT+1035(_unqlite_kv_cursor_release)
+         47   2E 0003E2C1 unqlite_kv_cursor_reset = @ILT+700(_unqlite_kv_cursor_reset)
+         48   2F 0003E221 unqlite_kv_cursor_seek = @ILT+540(_unqlite_kv_cursor_seek)
+         49   30 0003E163 unqlite_kv_cursor_valid_entry = @ILT+350(_unqlite_kv_cursor_valid_entry)
+         50   31 0003E33E unqlite_kv_delete = @ILT+825(_unqlite_kv_delete)
+         51   32 0003E4C4 unqlite_kv_fetch = @ILT+1215(_unqlite_kv_fetch)
+         52   33 0003E078 unqlite_kv_fetch_callback = @ILT+115(_unqlite_kv_fetch_callback)
+         53   34 0003E451 unqlite_kv_store = @ILT+1100(_unqlite_kv_store)
+         54   35 0003E348 unqlite_kv_store_fmt = @ILT+835(_unqlite_kv_store_fmt)
+         55   36 0003E532 unqlite_lib_config = @ILT+1325(_unqlite_lib_config)
+         56   37 0003E3E8 unqlite_lib_copyright = @ILT+995(_unqlite_lib_copyright)
+         57   38 0003E42E unqlite_lib_ident = @ILT+1065(_unqlite_lib_ident)
+         58   39 0003E4D3 unqlite_lib_init = @ILT+1230(_unqlite_lib_init)
+         59   3A 0003E03C unqlite_lib_is_threadsafe = @ILT+55(_unqlite_lib_is_threadsafe)
+         60   3B 0003E208 unqlite_lib_shutdown = @ILT+515(_unqlite_lib_shutdown)
+         61   3C 0003E3FC unqlite_lib_signature = @ILT+1015(_unqlite_lib_signature)
+         62   3D 0003E2DA unqlite_lib_version = @ILT+725(_unqlite_lib_version)
+         63   3E 0003E37F unqlite_open = @ILT+890(_unqlite_open)
+         64   3F 0003E546 unqlite_result_bool = @ILT+1345(_unqlite_result_bool)
+         65   40 0003E11D unqlite_result_double = @ILT+280(_unqlite_result_double)
+         66   41 0003E073 unqlite_result_int = @ILT+110(_unqlite_result_int)
+         67   42 0003E019 unqlite_result_int64 = @ILT+20(_unqlite_result_int64)
+         68   43 0003E505 unqlite_result_null = @ILT+1280(_unqlite_result_null)
+         69   44 0003E4A1 unqlite_result_resource = @ILT+1180(_unqlite_result_resource)
+         70   45 0003E357 unqlite_result_string = @ILT+850(_unqlite_result_string)
+         71   46 0003E08C unqlite_result_string_format = @ILT+135(_unqlite_result_string_format)
+         72   47 0003E109 unqlite_result_value = @ILT+260(_unqlite_result_value)
+         73   48 0003E45B unqlite_rollback = @ILT+1110(_unqlite_rollback)
+         74   49 0003E3B1 unqlite_util_load_mmaped_file = @ILT+940(_unqlite_util_load_mmaped_file)
+         75   4A 0003E537 unqlite_util_random_num = @ILT+1330(_unqlite_util_random_num)
+         76   4B 0003E2A3 unqlite_util_random_string = @ILT+670(_unqlite_util_random_string)
+         77   4C 0003E43D unqlite_util_release_mmaped_file = @ILT+1080(_unqlite_util_release_mmaped_file)
+         78   4D 0003E1F4 unqlite_value_bool = @ILT+495(_unqlite_value_bool)
+         79   4E 0003E3DE unqlite_value_compare = @ILT+985(_unqlite_value_compare)
+         80   4F 0003E1E0 unqlite_value_double = @ILT+475(_unqlite_value_double)
+         81   50 0003E014 unqlite_value_int = @ILT+15(_unqlite_value_int)
+         82   51 0003E339 unqlite_value_int64 = @ILT+820(_unqlite_value_int64)
+         83   52 0003E4BA unqlite_value_is_bool = @ILT+1205(_unqlite_value_is_bool)
+         84   53 0003E47E unqlite_value_is_callable = @ILT+1145(_unqlite_value_is_callable)
+         85   54 0003E10E unqlite_value_is_empty = @ILT+265(_unqlite_value_is_empty)
+         86   55 0003E0E6 unqlite_value_is_float = @ILT+225(_unqlite_value_is_float)
+         87   56 0003E01E unqlite_value_is_int = @ILT+25(_unqlite_value_is_int)
+         88   57 0003E122 unqlite_value_is_json_array = @ILT+285(_unqlite_value_is_json_array)
+         89   58 0003E0C3 unqlite_value_is_json_object = @ILT+190(_unqlite_value_is_json_object)
+         90   59 0003E483 unqlite_value_is_null = @ILT+1150(_unqlite_value_is_null)
+         91   5A 0003E2CB unqlite_value_is_numeric = @ILT+710(_unqlite_value_is_numeric)
+         92   5B 0003E424 unqlite_value_is_resource = @ILT+1055(_unqlite_value_is_resource)
+         93   5C 0003E2B7 unqlite_value_is_scalar = @ILT+690(_unqlite_value_is_scalar)
+         94   5D 0003E54B unqlite_value_is_string = @ILT+1350(_unqlite_value_is_string)
+         95   5E 0003E1E5 unqlite_value_null = @ILT+480(_unqlite_value_null)
+         96   5F 0003E20D unqlite_value_release = @ILT+520(_unqlite_value_release)
+         97   60 0003E2D5 unqlite_value_reset_string_cursor = @ILT+720(_unqlite_value_reset_string_cursor)
+         98   61 0003E1D6 unqlite_value_resource = @ILT+465(_unqlite_value_resource)
+         99   62 0003E3D4 unqlite_value_string = @ILT+975(_unqlite_value_string)
+        100   63 0003E2F3 unqlite_value_string_format = @ILT+750(_unqlite_value_string_format)
+        101   64 0003E1FE unqlite_value_to_bool = @ILT+505(_unqlite_value_to_bool)
+        102   65 0003E523 unqlite_value_to_double = @ILT+1310(_unqlite_value_to_double)
+        103   66 0003E07D unqlite_value_to_int = @ILT+120(_unqlite_value_to_int)
+        104   67 0003E307 unqlite_value_to_int64 = @ILT+770(_unqlite_value_to_int64)
+        105   68 0003E262 unqlite_value_to_resource = @ILT+605(_unqlite_value_to_resource)
+        106   69 0003E235 unqlite_value_to_string = @ILT+560(_unqlite_value_to_string)
+        107   6A 0003E361 unqlite_vm_config = @ILT+860(_unqlite_vm_config)
+        108   6B 0003E04B unqlite_vm_dump = @ILT+70(_unqlite_vm_dump)
+        109   6C 0003E055 unqlite_vm_exec = @ILT+80(_unqlite_vm_exec)
+        110   6D 0003E217 unqlite_vm_extract_variable = @ILT+530(_unqlite_vm_extract_variable)
+        111   6E 0003E479 unqlite_vm_new_array = @ILT+1140(_unqlite_vm_new_array)
+        112   6F 0003E069 unqlite_vm_new_scalar = @ILT+100(_unqlite_vm_new_scalar)
+        113   70 0003E18B unqlite_vm_release = @ILT+390(_unqlite_vm_release)
+        114   71 0003E474 unqlite_vm_release_value = @ILT+1135(_unqlite_vm_release_value)
+        115   72 0003E0FF unqlite_vm_reset = @ILT+250(_unqlite_vm_reset)
+
+  Summary
+
+        1000 .data
+        1000 .idata
+        C000 .rdata
+        4000 .reloc
+        1000 .rsrc
+       7C000 .text
+       3D000 .textbss

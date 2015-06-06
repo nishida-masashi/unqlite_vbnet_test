@@ -1,0 +1,23 @@
+﻿2015/06/06 12:26:45 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Users\nishida.masashi\Desktop\UnQLite\UnQLite\UnQLite.vcxproj" (rebuild ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\UnQLite.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "unqlite-db-20130825-116\unqlite.c"
+         unqlite.c
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\UnQLite.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.lib" /MACHINE:X86 /DLL Release\unqlite.obj
+            ライブラリ C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.lib とオブジェクト C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.exp を作成中
+         コード生成しています。
+         コード生成が終了しました。
+         UnQLite.vcxproj -> C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.dll;#2" /manifest Release\UnQLite.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\UnQLite.unsuccessfulbuild" を削除しています。
+         "Release\UnQLite.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\nishida.masashi\Desktop\UnQLite\UnQLite\UnQLite.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.70
