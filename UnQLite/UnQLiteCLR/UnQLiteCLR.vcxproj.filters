@@ -21,6 +21,9 @@
     <ClInclude Include="unqliteWrapper.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="unqliteSample.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="unqlite-db-20130825-116\license.txt">
@@ -28,7 +31,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="unqliteWrapper.cpp">
+    <ClCompile Include="unqliteSample.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>

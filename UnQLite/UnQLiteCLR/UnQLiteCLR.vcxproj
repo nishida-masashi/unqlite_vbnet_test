@@ -129,13 +129,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="unqlite-db-20130825-116\unqlite.h" />
+    <ClInclude Include="unqliteSample.h" />
     <ClInclude Include="unqliteWrapper.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="unqlite-db-20130825-116\license.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="unqliteWrapper.cpp" />
+    <ClCompile Include="unqliteSample.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
