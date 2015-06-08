@@ -17,3 +17,12 @@ Class unqliteSample: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     smp_unqlite_open(RichTextBox): PrivateScope, Public, Static, HideBySig
     smp_unqlite_config(RichTextBox): PrivateScope, Public, Static, HideBySig
     smp_unqlite_close(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_store(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_append(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_store_fmt(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_append_fmt(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_fetch_dynamically(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_fetch_statically(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_fetch_callback(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_delete(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_config(RichTextBox): PrivateScope, Public, Static, HideBySig

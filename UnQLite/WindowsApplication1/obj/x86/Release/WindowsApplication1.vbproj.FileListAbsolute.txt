@@ -10,3 +10,15 @@ C:\Users\nishida.masashi\Desktop\UnQLite\WindowsApplication1\obj\x86\Release\Win
 C:\Users\nishida.masashi\Desktop\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.exe
 C:\Users\nishida.masashi\Desktop\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.xml
 C:\Users\nishida.masashi\Desktop\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.pdb
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\bin\Release\WindowsApplication1.exe
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\bin\Release\WindowsApplication1.pdb
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\bin\Release\WindowsApplication1.xml
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\bin\Release\UnQLiteCLR.dll
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\bin\Release\UnQLiteCLR.pdb
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.Form1.resources
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.Resources.resources
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.exe
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.xml
+C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\WindowsApplication1\obj\x86\Release\WindowsApplication1.pdb

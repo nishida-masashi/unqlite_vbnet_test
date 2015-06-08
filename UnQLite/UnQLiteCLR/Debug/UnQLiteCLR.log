@@ -1,17 +1,20 @@
-﻿2015/06/08 19:50:29 にビルドを開始しました。
+﻿2015/06/08 21:35:24 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\UnQLiteCLR\UnQLiteCLR.vcxproj" (build ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "Debug\UnQLiteCLR.unsuccessfulbuild" を作成しています。
        GenerateTargetFrameworkMonikerAttribute:
        すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "GenerateTargetFrameworkMonikerAttribute" を省略します。
        ClCompile:
-         すべての出力が最新のものです。
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt unqliteSample.cpp /clr:nostdlib 
+         unqliteSample.cpp
          すべての出力が最新のものです。
        Link:
-         すべての出力が最新のものです。
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\Debug\UnQLiteCLR.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\UnQLiteCLR.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\Debug\UnQLiteCLR.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\unqliteSample.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>unqliteSample.obj : warning LNK4248: 未解決の typeref トークン (01000011) ('unqlite') です。イメージを実行できません。
          UnQLiteCLR.vcxproj -> C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\Debug\UnQLiteCLR.dll
-       MetaGen:
-       すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "MetaGen" を省略します。
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\Debug\UnQLiteCLR.dll;#2" /manifest Debug\UnQLiteCLR.dll.intermediate.manifest
        FinalizeBuildStatus:
          ファイル "Debug\UnQLiteCLR.unsuccessfulbuild" を削除しています。
          "Debug\UnQLiteCLR.lastbuildstate" のタッチ タスクを実行しています。
@@ -19,4 +22,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:00.16
+経過時間 00:00:01.10

@@ -1,29 +1,25 @@
-﻿2015/06/06 12:26:45 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\Users\nishida.masashi\Desktop\UnQLite\UnQLiteCLR\UnQLiteCLR.vcxproj" (rebuild ターゲット)。
-     1>PrepareForBuild:
-         ディレクトリ "C:\Users\nishida.masashi\Desktop\UnQLite\Release\" を作成しています。
-       InitializeBuildStatus:
-         "AlwaysCreate" が指定されたため "Release\UnQLiteCLR.unsuccessfulbuild" を作成しています。
+﻿2015/06/08 21:35:34 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\UnQLiteCLR\UnQLiteCLR.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "Release\UnQLiteCLR.unsuccessfulbuild" のタッチ タスクを実行しています。
        GenerateTargetFrameworkMonikerAttribute:
        すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "GenerateTargetFrameworkMonikerAttribute" を省略します。
        ClCompile:
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt unqliteWrapper.cpp /clr:nostdlib 
-         unqliteWrapper.cpp
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\nishida.masashi\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
-         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt unqliteSample.cpp /clr:nostdlib 
+         unqliteSample.cpp
+         すべての出力が最新のものです。
        Link:
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLiteCLR.dll" /INCREMENTAL:NO /NOLOGO Delayimp.lib /DELAYLOAD:C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.dll /MANIFEST /ManifestFile:"Release\UnQLiteCLR.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLiteCLR.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Release\unqliteWrapper.obj
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\Release\UnQLiteCLR.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\UnQLiteCLR.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\Release\UnQLiteCLR.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Release\unqliteSample.obj
          "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-     1>LINK : warning LNK4199: /DELAYLOAD:C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.dll は無視されます。C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLite.dll にインポートがありません。
-     1>unqliteWrapper.obj : warning LNK4248: 未解決の typeref トークン (0100000C) ('unqlite') です。イメージを実行できません。
-         UnQLiteCLR.vcxproj -> C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLiteCLR.dll
+     1>unqliteSample.obj : warning LNK4248: 未解決の typeref トークン (01000011) ('unqlite') です。イメージを実行できません。
+         UnQLiteCLR.vcxproj -> C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\Release\UnQLiteCLR.dll
        Manifest:
-         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\nishida.masashi\Desktop\UnQLite\Release\UnQLiteCLR.dll;#2" /manifest Release\UnQLiteCLR.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\Release\UnQLiteCLR.dll;#2" /manifest Release\UnQLiteCLR.dll.intermediate.manifest
        FinalizeBuildStatus:
          ファイル "Release\UnQLiteCLR.unsuccessfulbuild" を削除しています。
          "Release\UnQLiteCLR.lastbuildstate" のタッチ タスクを実行しています。
-     1>プロジェクト "C:\Users\nishida.masashi\Desktop\UnQLite\UnQLiteCLR\UnQLiteCLR.vcxproj" (rebuild ターゲット) のビルドが完了しました。
+     1>プロジェクト "C:\Users\nishida.masashi\Desktop\unqlite_vbnet_test-master\UnQLite\UnQLiteCLR\UnQLiteCLR.vcxproj" (build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:01.62
+経過時間 00:00:01.04

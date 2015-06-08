@@ -60,10 +60,20 @@ Partial Class Form1
         Me.TabPage16 = New System.Windows.Forms.TabPage()
         Me.FlowLayoutPanel16 = New System.Windows.Forms.FlowLayoutPanel()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
+        Me.unqlite_kv_store = New System.Windows.Forms.Button()
+        Me.unqlite_kv_append = New System.Windows.Forms.Button()
+        Me.unqlite_kv_store_fmt = New System.Windows.Forms.Button()
+        Me.unqlite_kv_append_fmt = New System.Windows.Forms.Button()
+        Me.unqlite_kv_fetch_dynamically = New System.Windows.Forms.Button()
+        Me.unqlite_kv_fetch_statically = New System.Windows.Forms.Button()
+        Me.unqlite_kv_fetch_callback = New System.Windows.Forms.Button()
+        Me.unqlite_kv_delete = New System.Windows.Forms.Button()
+        Me.unqlite_kv_config = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
+        Me.FlowLayoutPanel2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
         Me.TabPage5.SuspendLayout()
@@ -185,6 +195,15 @@ Partial Class Form1
         '
         'FlowLayoutPanel2
         '
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_store)
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_append)
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_store_fmt)
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_append_fmt)
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_fetch_dynamically)
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_fetch_statically)
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_fetch_callback)
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_delete)
+        Me.FlowLayoutPanel2.Controls.Add(Me.unqlite_kv_config)
         Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FlowLayoutPanel2.Location = New System.Drawing.Point(3, 3)
         Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
@@ -475,6 +494,96 @@ Partial Class Form1
         Me.SplitContainer1.SplitterDistance = 201
         Me.SplitContainer1.TabIndex = 2
         '
+        'unqlite_kv_store
+        '
+        Me.unqlite_kv_store.AutoSize = True
+        Me.unqlite_kv_store.Location = New System.Drawing.Point(3, 3)
+        Me.unqlite_kv_store.Name = "unqlite_kv_store"
+        Me.unqlite_kv_store.Size = New System.Drawing.Size(95, 23)
+        Me.unqlite_kv_store.TabIndex = 3
+        Me.unqlite_kv_store.Text = "unqlite_kv_store"
+        Me.unqlite_kv_store.UseVisualStyleBackColor = True
+        '
+        'unqlite_kv_append
+        '
+        Me.unqlite_kv_append.AutoSize = True
+        Me.unqlite_kv_append.Location = New System.Drawing.Point(104, 3)
+        Me.unqlite_kv_append.Name = "unqlite_kv_append"
+        Me.unqlite_kv_append.Size = New System.Drawing.Size(105, 23)
+        Me.unqlite_kv_append.TabIndex = 4
+        Me.unqlite_kv_append.Text = "unqlite_kv_append"
+        Me.unqlite_kv_append.UseVisualStyleBackColor = True
+        '
+        'unqlite_kv_store_fmt
+        '
+        Me.unqlite_kv_store_fmt.AutoSize = True
+        Me.unqlite_kv_store_fmt.Location = New System.Drawing.Point(215, 3)
+        Me.unqlite_kv_store_fmt.Name = "unqlite_kv_store_fmt"
+        Me.unqlite_kv_store_fmt.Size = New System.Drawing.Size(116, 23)
+        Me.unqlite_kv_store_fmt.TabIndex = 5
+        Me.unqlite_kv_store_fmt.Text = "unqlite_kv_store_fmt"
+        Me.unqlite_kv_store_fmt.UseVisualStyleBackColor = True
+        '
+        'unqlite_kv_append_fmt
+        '
+        Me.unqlite_kv_append_fmt.AutoSize = True
+        Me.unqlite_kv_append_fmt.Location = New System.Drawing.Point(337, 3)
+        Me.unqlite_kv_append_fmt.Name = "unqlite_kv_append_fmt"
+        Me.unqlite_kv_append_fmt.Size = New System.Drawing.Size(126, 23)
+        Me.unqlite_kv_append_fmt.TabIndex = 6
+        Me.unqlite_kv_append_fmt.Text = "unqlite_kv_append_fmt"
+        Me.unqlite_kv_append_fmt.UseVisualStyleBackColor = True
+        '
+        'unqlite_kv_fetch_dynamically
+        '
+        Me.unqlite_kv_fetch_dynamically.AutoSize = True
+        Me.unqlite_kv_fetch_dynamically.Location = New System.Drawing.Point(3, 32)
+        Me.unqlite_kv_fetch_dynamically.Name = "unqlite_kv_fetch_dynamically"
+        Me.unqlite_kv_fetch_dynamically.Size = New System.Drawing.Size(159, 23)
+        Me.unqlite_kv_fetch_dynamically.TabIndex = 7
+        Me.unqlite_kv_fetch_dynamically.Text = "unqlite_kv_fetch_dynamically"
+        Me.unqlite_kv_fetch_dynamically.UseVisualStyleBackColor = True
+        '
+        'unqlite_kv_fetch_statically
+        '
+        Me.unqlite_kv_fetch_statically.AutoSize = True
+        Me.unqlite_kv_fetch_statically.Location = New System.Drawing.Point(168, 32)
+        Me.unqlite_kv_fetch_statically.Name = "unqlite_kv_fetch_statically"
+        Me.unqlite_kv_fetch_statically.Size = New System.Drawing.Size(146, 23)
+        Me.unqlite_kv_fetch_statically.TabIndex = 8
+        Me.unqlite_kv_fetch_statically.Text = "unqlite_kv_fetch_statically"
+        Me.unqlite_kv_fetch_statically.UseVisualStyleBackColor = True
+        '
+        'unqlite_kv_fetch_callback
+        '
+        Me.unqlite_kv_fetch_callback.AutoSize = True
+        Me.unqlite_kv_fetch_callback.Location = New System.Drawing.Point(320, 32)
+        Me.unqlite_kv_fetch_callback.Name = "unqlite_kv_fetch_callback"
+        Me.unqlite_kv_fetch_callback.Size = New System.Drawing.Size(141, 23)
+        Me.unqlite_kv_fetch_callback.TabIndex = 9
+        Me.unqlite_kv_fetch_callback.Text = "unqlite_kv_fetch_callback"
+        Me.unqlite_kv_fetch_callback.UseVisualStyleBackColor = True
+        '
+        'unqlite_kv_delete
+        '
+        Me.unqlite_kv_delete.AutoSize = True
+        Me.unqlite_kv_delete.Location = New System.Drawing.Point(3, 61)
+        Me.unqlite_kv_delete.Name = "unqlite_kv_delete"
+        Me.unqlite_kv_delete.Size = New System.Drawing.Size(100, 23)
+        Me.unqlite_kv_delete.TabIndex = 10
+        Me.unqlite_kv_delete.Text = "unqlite_kv_delete"
+        Me.unqlite_kv_delete.UseVisualStyleBackColor = True
+        '
+        'unqlite_kv_config
+        '
+        Me.unqlite_kv_config.AutoSize = True
+        Me.unqlite_kv_config.Location = New System.Drawing.Point(109, 61)
+        Me.unqlite_kv_config.Name = "unqlite_kv_config"
+        Me.unqlite_kv_config.Size = New System.Drawing.Size(100, 23)
+        Me.unqlite_kv_config.TabIndex = 11
+        Me.unqlite_kv_config.Text = "unqlite_kv_config"
+        Me.unqlite_kv_config.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -488,6 +597,8 @@ Partial Class Form1
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.FlowLayoutPanel1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
+        Me.FlowLayoutPanel2.ResumeLayout(False)
+        Me.FlowLayoutPanel2.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage5.ResumeLayout(False)
@@ -547,5 +658,14 @@ Partial Class Form1
     Friend WithEvents unqlite_open As System.Windows.Forms.Button
     Friend WithEvents unqlite_config As System.Windows.Forms.Button
     Friend WithEvents unqlite_close As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_store As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_append As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_store_fmt As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_append_fmt As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_fetch_dynamically As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_fetch_statically As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_fetch_callback As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_delete As System.Windows.Forms.Button
+    Friend WithEvents unqlite_kv_config As System.Windows.Forms.Button
 
 End Class

@@ -5,12 +5,24 @@ Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934
 	hash=None, flags=None
 Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
 Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
 	hash=None, flags=None
-Class unqliteWrapper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class unqliteSample: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Interfaces:
-    System.IDisposable
   Methods:
-    sample(): PrivateScope, Public, HideBySig
-    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+    smp_unqlite_open(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_config(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_close(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_store(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_append(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_store_fmt(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_append_fmt(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_fetch_dynamically(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_fetch_statically(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_fetch_callback(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_delete(RichTextBox): PrivateScope, Public, Static, HideBySig
+    smp_unqlite_kv_config(RichTextBox): PrivateScope, Public, Static, HideBySig
